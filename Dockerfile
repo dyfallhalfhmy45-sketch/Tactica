@@ -3,7 +3,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY server.py .
-COPY static ./static
+RUN mkdir static
+COPY index.html app.js physics.js style.css ./static/
 RUN mkdir /data && useradd --uid 10001 app && chown app /data
 USER app
 ENV DATABASE_PATH=/data/rooms.sqlite3
