@@ -15,7 +15,7 @@ pip install -r requirements.txt
 uvicorn server:app --host 0.0.0.0 --port 8000 --workers 1 --ws-max-size 8192
 ```
 
-Open http://localhost:8000. Enter your name, leave Server address blank, and click **Create shared room**. Copy the link and open it in a second browser; enter a second name and click **Join**. Every accepted move, arrow, rename, and chat message is broadcast to everyone in the room.
+Open https://tactica966.netlify.app/ Enter your name, leave Server address blank, and click **Create shared room**. Copy the link and open it in a second browser; enter a second name and click **Join**. Every accepted move, arrow, rename, and chat message is broadcast to everyone in the room.
 
 On the same Wi-Fi, open `http://YOUR_COMPUTER_LAN_IP:8000` on both devices. Allow port 8000 in your firewall. A localhost link only works on the computer running the server.
 
