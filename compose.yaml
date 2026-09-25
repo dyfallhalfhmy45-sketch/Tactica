@@ -1,0 +1,10 @@
+services:
+  tactica:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - room-data:/data
+    restart: unless-stopped
+volumes:
+  room-data:
