@@ -1,5 +1,5 @@
 # Tactica | غرف التحليل المشترك
-
+ web  https://tactica-production.up.railway.app/
 A bilingual Arabic/English football tactics workspace with a real Python WebSocket backend. Move 22 players and the ball, draw tactical arrows, name players, and discuss the plan in a shared room.
 
 ## Run locally
